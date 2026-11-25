@@ -1,0 +1,12 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "IQ Futbol",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "IQ Futbol",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "/IQ-Futbol/"
+}
