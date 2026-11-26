@@ -2,6 +2,8 @@
 <html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <meta name="theme-color" content="#0a1d14">
 <title>IQ Futbol — Soru Cevap Oyunu</title>
 <style>
@@ -352,4 +354,5 @@ const NV={tr:['Ana Sayfa','Çark','Sıralama','Ayarlar','Nasıl?'],az:['Ana səh
 function nvUpd(){const f=[menu,wheel,board,settings,howto],ic=['⚽','🎡','🏆','⚙️','❓'],ids=['menu','wheel','board','settings','howto'];let h='';f.forEach((fn,i)=>{if(fn)h+=`<button class='${scr===fn||(fn===settings&&scr===about)?'on':''}' onclick='${ids[i]}()'><span>${ic[i]}</span>${NV[lang][i]}${i==1&&!wrem()?'<em class=bdg2></em>':''}</button>`});$('#nv').innerHTML=h}
 document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('button');if(b&&!b.closest('#nv')&&!b.classList.contains('opt')&&!b.classList.contains('j'))sfx.tap()},true);window.addEventListener('pointerdown',()=>{window.ux=1},{capture:true,once:true});
 setL();menu();
-</script></body></html>
+</script>
+<script>if('serviceWorker'in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))</script></body></html>
