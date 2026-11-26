@@ -1,12 +1,37 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "IQ Futbol",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "IQ Futbol",
-  "start_url": "/",
-  "theme_color": "#ffffff",
-  "id": "/IQ-Futbol/"
+ "id": "./",
+ "name": "IQ Futbol — Soru Cevap Oyunu",
+ "short_name": "IQ Futbol",
+ "description": "Futbol bilgi yarışması: 50 saniye, 5 yardım, günlük çark ve sıralama.",
+ "lang": "tr",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#0a1d14",
+ "theme_color": "#0a1d14",
+ "categories": [
+  "games",
+  "trivia"
+ ],
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
 }
